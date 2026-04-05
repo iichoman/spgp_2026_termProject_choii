@@ -1,4 +1,4 @@
-# [Draw The Beat]
+# Draw The Beat
 
 ## 게임 컨셉
   모바일 리듬게임
