@@ -10,8 +10,8 @@
   + 커스텀 맵 파일로 저장/불러오기
   
 ## 예상 게임 실행 흐름
-  ![Image](https://github.com/user-attachments/assets/ede3bbec-7e12-4df2-b7cb-6957066fb26c)
-  ![Image](https://github.com/user-attachments/assets/ac3f7535-ef84-4739-87bf-28557eac33ea)
+  ![Image](https://github.com/user-attachments/assets/ede3bbec-7e12-4df2-b7cb-6957066fb26c)[TAP SONIC]
+  ![Image](https://github.com/user-attachments/assets/ac3f7535-ef84-4739-87bf-28557eac33ea)[PIANISTA]
   
 ## 개발 일정
   1주차: 프레임워크 정리 (현재 수업 + 이전 수업 내용 참고)
