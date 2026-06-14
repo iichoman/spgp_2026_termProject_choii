@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:paddingHorizontal="40dp">
+
+    <TextView
+        style="@style/GameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="70dp"
+        android:text="@string/title_settings" />
+
+    <TextView
+        android:id="@+id/musicVolumeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/musicVolumeSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:max="100" />
+
+    <TextView
+        android:id="@+id/effectVolumeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/effectVolumeSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:max="100" />
+
+    <Button
+        android:id="@+id/testEffectButton"
+        style="@style/GameButton"
+        android:layout_marginTop="70dp"
+        android:text="@string/action_test_effect" />
+
+    <Button
+        android:id="@+id/backButton"
+        style="@style/GameButton"
+        android:layout_marginTop="24dp"
+        android:text="@string/action_back_korean" />
+</LinearLayout>

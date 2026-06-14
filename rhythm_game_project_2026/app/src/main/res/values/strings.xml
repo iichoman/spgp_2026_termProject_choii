@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Draw The Beat</string>
+
+    <string name="title_game">Draw The Beat</string>
+    <string name="title_touch_any_screen">TOUCH ANY SCREEN</string>
+    <string name="title_home">HOME</string>
+    <string name="title_settings">설정</string>
+    <string name="title_play_menu">PLAY</string>
+    <string name="title_edit_menu">EDIT</string>
+    <string name="title_chart_editor">에디터</string>
+
+    <string name="section_songs">Songs</string>
+    <string name="section_maps">Maps</string>
+    <string name="section_charts">Charts</string>
+    <string name="message_select_song_first">먼저 곡을 선택해주세요</string>
+    <string name="message_select_song">곡을 선택해주세요</string>
+    <string name="message_no_maps">선택한 곡의 맵이 없어요</string>
+    <string name="message_no_chart_use_new_map">채보가 없습니다 새로운 맵을 생성하세요</string>
+
+    <string name="action_play">PLAY</string>
+    <string name="action_pause">PAUSE</string>
+    <string name="action_edit">EDIT</string>
+    <string name="action_play_korean">플레이</string>
+    <string name="action_edit_korean">에디트</string>
+    <string name="action_back_korean">뒤로</string>
+    <string name="action_settings">설정</string>
+    <string name="action_test_effect">효과음 테스트</string>
+    <string name="action_save">SAVE</string>
+    <string name="action_back">BACK</string>
+    <string name="action_test">TEST</string>
+    <string name="action_delete">삭제</string>
+    <string name="action_open">열기</string>
+    <string name="action_rename">이름변경</string>
+    <string name="action_new_map">맵 생성</string>
+    <string name="action_bpm">BPM</string>
+    <string name="action_snap">SNAP</string>
+    <string name="action_up">뒤로</string>
+    <string name="action_down">앞으로</string>
+    <string name="action_apply">Apply</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_ok">OK</string>
+    <string name="action_create">Create</string>
+    <string name="action_resume">RESUME</string>
+    <string name="action_exit">EXIT</string>
+    <string name="action_retry">RETRY</string>
+    <string name="action_menu">MENU</string>
+
+    <string name="pause_title">PAUSED</string>
+    <string name="result_cleared">CLEARED</string>
+    <string name="result_failed">FAILED</string>
+    <string name="result_score_format">SCORE  %1$d</string>
+    <string name="result_max_combo_format">MAX COMBO  %1$d</string>
+    <string name="judgment_perfect">PERFECT</string>
+    <string name="judgment_great">GREAT</string>
+    <string name="judgment_good">GOOD</string>
+    <string name="judgment_miss">MISS</string>
+    <string name="combo_format">%1$d COMBO</string>
+    <string name="setting_music_volume">음악 볼륨</string>
+    <string name="setting_effect_volume">효과음 볼륨</string>
+    <string name="setting_volume_format">%1$s  %2$d%%</string>
+    <string name="error_format">error: %1$s</string>
+    <string name="chart_lane_format">%1$s  %2$dK</string>
+    <string name="chart_summary_format">%1$s  %2$dK  notes: %3$d  난이도: %4$d</string>
+    <string name="lane_four_key">4 KEY</string>
+    <string name="lane_six_key">6 KEY</string>
+    <string name="recent_hold_note">#%1$d HOLD lane=%2$d beat=%3$s~%4$s</string>
+    <string name="recent_tap_note">#%1$d TAP lane=%2$d raw=%3$dms beat=%4$s</string>
+
+    <string name="editor_time_format">time: %1$d / %2$d ms</string>
+    <string name="editor_info_format">bpm: %1$s  snap: 1/%2$d  lanes: %3$d  notes: %4$d/%5$d</string>
+    <string name="editor_help">노란 선 아래쪽을 눌러 입력하고 위쪽으로 편집할 수 있어요.</string>
+    <string name="dialog_bpm_title">BPM</string>
+    <string name="dialog_beat_snap_title">Beat Snap</string>
+    <string name="snap_option_format">1/%1$d beat</string>
+
+    <string name="status_chart_new">chart: new</string>
+    <string name="status_chart_new_file">chart: 새 파일: %1$s</string>
+    <string name="status_chart_loaded">chart: %1$d 노트를 불러왔어요</string>
+    <string name="status_chart_new_after_load_failure">chart: 불러올 수 없어요</string>
+    <string name="status_chart_saved">chart: 저장되었습니다. %1$d notes</string>
+    <string name="status_chart_save_failed">chart: 저장 실패</string>
+    <string name="status_chart_deleted">chart: 노트 삭제 #%1$d</string>
+    <string name="status_bpm_range">timing: BPM 범위는 %1$s~%2$s 입니다</string>
+    <string name="status_bpm_changed">timing: BPM %1$s</string>
+    <string name="status_snap_changed">timing: snap 1/%1$d beat</string>
+    <string name="status_move_duplicate">chart: 움직일 수 없습니다</string>
+    <string name="status_note_moved">chart:  note #%1$d 이동 beat %2$s</string>
+    <string name="status_note_first_beat">chart: 노트 #%1$d is at first beat</string>
+    <string name="status_playback_paused">playback: paused</string>
+    <string name="status_playback_playing">playback: playing</string>
+    <string name="status_playback_seek">playback: %1$dms</string>
+    <string name="status_timeline_drag">timeline: 드래그로 재생 위치 이동</string>
+    <string name="status_timeline_seek">timeline: %1$dms</string>
+    <string name="status_note_selected">chart: selected note #%1$d</string>
+    <string name="status_note_recording">chart: 노트 입력중..</string>
+    <string name="status_note_duplicate">chart: 이미 노트가 있어요</string>
+    <string name="status_note_recording_canceled">chart: 입력 취소</string>
+    <string name="status_note_recorded">chart: 입력된 %1$s 노트 #%2$d</string>
+
+    <string name="dialog_new_map">CREATE</string>
+    <string name="dialog_rename_map">이름 변경</string>
+    <string name="default_new_chart">New Chart %1$d</string>
+    <string name="status_song_selected">song: %1$s</string>
+    <string name="status_chart_selected">chart: %1$s</string>
+    <string name="status_created">생성됨: %1$s (%2$s)</string>
+    <string name="status_create_failed">생성 실패: %1$s</string>
+    <string name="status_deleted">삭제됨: %1$s</string>
+    <string name="status_delete_failed">삭제 실패: %1$s</string>
+    <string name="status_rename_empty">이름 변경 취소: empty name</string>
+    <string name="status_renamed">이름 변경: %1$s</string>
+    <string name="status_rename_failed">이름 변경 실패: %1$s</string>
+    <string name="status_read_songs_failed">곡을 불러오는데 실패했어요: %1$s</string>
+    <string name="status_read_charts_failed">채보를 불러오는데 실패했어요: %1$s</string>
+    <string name="error_chart_not_found">chart not found: %1$s</string>
+</resources>
