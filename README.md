@@ -36,7 +36,12 @@
   7주차: 기본 맵 제작, 디자인 보완  \+ 맵을 파일로 저장/불러오기 구현
   
   8주차: 부족한 부분 수정/보완, 최종 테스트
-  
+
+## 플레이 화면
+<img width="419" height="610" alt="Image" src="https://github.com/user-attachments/assets/58abfe96-fc1e-460c-ab2f-944524bbdd3c" />
+
+<img width="524" height="618" alt="Image" src="https://github.com/user-attachments/assets/bed8eb44-b69c-4f5a-9f69-60169c043f2f" />
+
 ## 개발 진행
   2주차: 음원재생, audioClock, Note 클래스 정의, lane 설정
   3주차: 노트 입력 저장, json 파일 생성 및 불러오기 구현, 박자 스냅
